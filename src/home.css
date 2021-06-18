@@ -3,7 +3,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 }
 
@@ -18,9 +18,9 @@
 	z-index: -1;
 }
 
-/* Add some content at the bottom of the video/page */
 .content {
 	color: #f1f1f1;
+	width: 70%;
 }
 
 h1 {
@@ -31,5 +31,9 @@ h1 {
 p {
 	font-size: 1.5em;
 	color: #3500d3;
-	font-weight: bold;
+}
+
+em {
+	color: #f1f1f1;
+	font-style: normal;
 }

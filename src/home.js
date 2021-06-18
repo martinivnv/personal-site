@@ -15,9 +15,12 @@ const Home = () => {
 				browser.
 			</video>
 
-			<div class="content">
-				<h1>Martin Ivanov</h1>
-				<p>Aspiring Software Engineer</p>
+			<div className="content">
+				<h1>Hi, I'm Martin Ivanov.</h1>
+				<p>
+					Currently, I'm pursuing a degree in Software Engineering at McMaster
+					University and learning full stack web development in my free time.
+				</p>
 			</div>
 		</section>
 	);
