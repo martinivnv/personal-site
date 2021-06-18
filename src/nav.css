@@ -1,0 +1,33 @@
+/*$deep-purple: #0c0032;
+$purple: #190061;
+$deep-blue: #240090;
+$blue: #3500d3;
+$gray: #282828;*/
+
+#navbar {
+	height: 10vh;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+#nav-list {
+	list-style: none;
+	display: flex;
+	padding: 20px 60px;
+}
+
+.nav-item {
+	margin-left: 5vw;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+}
