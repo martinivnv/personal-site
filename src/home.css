@@ -28,12 +28,7 @@ h1 {
 	margin: 0.5em;
 }
 
-p {
+#currently-working-on {
 	font-size: 1.5em;
 	color: #3500d3;
-}
-
-em {
-	color: #f1f1f1;
-	font-style: normal;
 }

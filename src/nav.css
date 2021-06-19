@@ -2,7 +2,8 @@
 $purple: #190061;
 $deep-blue: #240090;
 $blue: #3500d3;
-$gray: #282828;*/
+$gray: #282828;
+$tangerine: #F28500*/
 
 #navbar {
 	width: 100%;
@@ -13,6 +14,7 @@ $gray: #282828;*/
 	top: 0;
 	left: 0;
 	z-index: 999;
+	background-color: black;
 }
 
 #logo {
@@ -31,7 +33,7 @@ $gray: #282828;*/
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #f1f1f1;
 	font-size: 1.2em;
 	transition: 0.5s;
 }

@@ -16,10 +16,11 @@ const Home = () => {
 			</video>
 
 			<div className="content">
-				<h1>Hi, I'm Martin Ivanov.</h1>
-				<p>
-					Currently, I'm pursuing a degree in Software Engineering at McMaster
-					University and learning full stack web development in my free time.
+				<h1>Hey, I'm Martin Ivanov.</h1>
+				<p id="currently-working-on">
+					I'm an aspiring Software Engineer with a passion for learning new
+					technologies. I am currently exploring full stack web development in
+					my free time.
 				</p>
 			</div>
 		</section>

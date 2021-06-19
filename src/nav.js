@@ -5,7 +5,9 @@ import Logo from "./resources/logo.png";
 const Nav = () => {
 	return (
 		<nav id="navbar">
-			<img id="logo" src={Logo} alt="Logo" width="70px" height="70px" />
+			<a href="#home">
+				<img id="logo" src={Logo} alt="Logo" width="70px" height="70px" />
+			</a>
 			<ul id="nav-list">
 				<li className="nav-item">
 					<a href="#about">About Me</a>
