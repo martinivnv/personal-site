@@ -1,0 +1,32 @@
+h2 {
+	margin: 30px;
+	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+	color: #f1f1f1;
+}
+
+#about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#story {
+	width: 80vw;
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	align-items: center;
+}
+
+.image {
+	margin: 0px 0px 30px 30px;
+	border-radius: 20px;
+	border-style: double;
+	border-color: #3500d3;
+	border-width: 5px;
+}
