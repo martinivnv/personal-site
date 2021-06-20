@@ -1,0 +1,50 @@
+input,
+textarea {
+	background-color: #140052;
+	color: #f1f1f1;
+	padding: 0.5em;
+	font-size: 1.1em;
+	margin: 10px;
+	border: 2px solid #3500d3;
+	border-radius: 5px;
+	font-family: inherit;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+textarea {
+	max-width: 100%;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+	border-color: #53cbbf;
+}
+
+#contact-form {
+	max-width: 480px;
+}
+
+button {
+	background-color: #53cbbf26;
+	color: #53cbbf;
+	padding: 0.5em 2em;
+	font-size: 1.1em;
+	margin: 10px;
+	text-align: left;
+	border: 2px solid #53cbbf;
+	border-radius: 25px;
+	font-family: inherit;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #53cbbf4f;
+}
+
+button:active {
+	background-color: #53cbbf4f;
+	transform: translateY(5px);
+}
