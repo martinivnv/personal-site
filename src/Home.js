@@ -2,7 +2,8 @@ import React from "react";
 import "./Home.css";
 import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
-import statue from "./resources/thinker.png";
+import SocialLinks from "./SocialLinks";
+/* import statue from "./resources/thinker.png"; */
 
 const Home = () => {
 	return (
@@ -15,13 +16,14 @@ const Home = () => {
 				Your browser does not support the video tag. I suggest you upgrade your
 				browser.
 			</video>
-			<img src={statue} alt="Statue" className="statue" />
+			{/*<img src={statue} alt="Statue" className="statue" />*/}
 			<div className="content">
 				<h1 id="name">Hey, I'm Martin.</h1>
 				<p id="currently-working-on">
 					I'm a Software Engineering student with a passion for learning new
 					technologies! Currently, I am exploring full stack web development.
 				</p>
+				<SocialLinks />
 			</div>
 		</div>
 	);
