@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
-import statue from "./resources/aurelius.png";
+import statue from "./resources/thinker.png";
 
 const Home = () => {
 	return (
