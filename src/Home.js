@@ -23,7 +23,9 @@ const Home = () => {
 					I'm a Software Engineering student with a passion for learning new
 					technologies! Currently, I am exploring full stack web development.
 				</p>
-				<SocialLinks />
+				<div id="socials-bar-home">
+					<SocialLinks />
+				</div>
 			</div>
 		</div>
 	);

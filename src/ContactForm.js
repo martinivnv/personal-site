@@ -37,8 +37,8 @@ const ContactForm = () => {
 				/>
 				<br />
 				<textarea
-					rows="4"
-					cols="50"
+					rows="8"
+					cols="70"
 					id="contact-msg"
 					label="message"
 					name="message"
