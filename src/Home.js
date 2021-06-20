@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./Home.css";
 import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
 
@@ -16,11 +16,10 @@ const Home = () => {
 			</video>
 
 			<div className="content">
-				<h1>Hey, I'm Martin Ivanov.</h1>
+				<h1 id="name">Hey, I'm Martin.</h1>
 				<p id="currently-working-on">
-					I'm an aspiring Software Engineer with a passion for learning new
-					technologies. I am currently exploring full stack web development in
-					my free time.
+					I'm a Software Engineering student with a passion for learning new
+					technologies! Currently, I am exploring full stack web development.
 				</p>
 			</div>
 		</section>

@@ -15,6 +15,7 @@ $tangerine: #F28500*/
 	left: 0;
 	z-index: 999;
 	background-color: black;
+	box-shadow: 0 5px 2px -2px rgb(0 0 0 / 40%);
 }
 
 #logo {

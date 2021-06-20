@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
 
 html {
 	scroll-behavior: smooth;
@@ -9,7 +9,7 @@ body {
 	font-family: "Lato", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: black;
+	background-color: #0c0032;
 	color: #f1f1f1;
 	overflow-x: hidden;
 }
@@ -20,5 +20,6 @@ code {
 }
 
 p {
-	font-family: "Lora", serif;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	line-height: 1.6;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./nav.css";
+import "./Nav.css";
 import Logo from "./resources/logo.png";
 
 const Nav = () => {

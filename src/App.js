@@ -1,7 +1,8 @@
 import "./App.css";
-import Nav from "./nav.js";
-import Home from "./home.js";
-import About from "./about.js";
+import Nav from "./Nav.js";
+import Home from "./Home.js";
+import About from "./About.js";
+import Projects from "./Projects";
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<Nav />
 			<Home />
 			<About />
+			<Projects />
 		</div>
 	);
 }
