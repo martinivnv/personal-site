@@ -23,12 +23,19 @@
 	width: 70%;
 }
 
-h1 {
+#name {
 	font-size: 3em;
 	margin: 0.5em;
+	color: #53cbbf;
 }
 
 #currently-working-on {
 	font-size: 1.5em;
-	color: #53cbbf;
+}
+
+.statue {
+	position: absolute;
+	width: 284px;
+	height: 450px;
+	z-index: -1;
 }

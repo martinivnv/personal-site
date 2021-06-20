@@ -2,10 +2,11 @@ import React from "react";
 import "./Home.css";
 import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
+import statue from "./resources/aurelius.png";
 
 const Home = () => {
 	return (
-		<section id="home">
+		<div id="home">
 			<video autoPlay muted loop id="my-video">
 				<source src={myVideoV1} type="video/mp4" />
 				Your browser does not support the video tag. I suggest you upgrade your
@@ -14,7 +15,7 @@ const Home = () => {
 				Your browser does not support the video tag. I suggest you upgrade your
 				browser.
 			</video>
-
+			<img src={statue} alt="Statue" className="statue" />
 			<div className="content">
 				<h1 id="name">Hey, I'm Martin.</h1>
 				<p id="currently-working-on">
@@ -22,7 +23,7 @@ const Home = () => {
 					technologies! Currently, I am exploring full stack web development.
 				</p>
 			</div>
-		</section>
+		</div>
 	);
 };
 
