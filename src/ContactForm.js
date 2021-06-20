@@ -12,10 +12,15 @@ const ContactForm = () => {
 
 	return (
 		<div className="form-container">
+			{success && (
+				<p style={{ color: "#18ff18", fontSize: "1.2em", margin: "5px" }}>
+					Submitted. Thanks for your message!
+				</p>
+			)}
 			<form
 				name="contact"
 				method="POST"
-				action="/#contact/?success=true"
+				action="/?success=true/#contact"
 				data-netlify="true"
 				id="contact-form"
 			>
@@ -46,7 +51,6 @@ const ContactForm = () => {
 				/>
 				<br />
 				<button type="submit">Send</button>
-				{success && <p style={{ color: "green" }}>Thanks for your message! </p>}
 			</form>
 		</div>
 	);
