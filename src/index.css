@@ -23,3 +23,11 @@ p {
 	font-family: "Roboto", Arial, Helvetica, sans-serif;
 	line-height: 1.6;
 }
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 60px 40px;
+}

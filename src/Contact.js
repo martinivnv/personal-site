@@ -1,11 +1,12 @@
 import React from "react";
+import "./Contact.css";
 
-const Projects = () => {
+const Contact = () => {
 	return (
-		<section id="projects">
-			<h2>My Projects</h2>
+		<section id="contact">
+			<h2>Reach out and let's talk!</h2>
 		</section>
 	);
 };
 
-export default Projects;
+export default Contact;

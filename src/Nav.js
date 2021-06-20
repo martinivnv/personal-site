@@ -6,7 +6,7 @@ const Nav = () => {
 	return (
 		<nav id="navbar">
 			<a href="#home">
-				<img id="logo" src={Logo} alt="Logo" width="70px" height="70px" />
+				<img id="nav-logo" src={Logo} alt="Logo" width="70px" height="70px" />
 			</a>
 			<ul id="nav-list">
 				<li className="nav-item">
@@ -16,7 +16,7 @@ const Nav = () => {
 					<a href="#projects">My Projects</a>
 				</li>
 				<li className="nav-item">
-					<a href="#contact">Let's Talk</a>
+					<a href="#contact">Contact Me</a>
 				</li>
 			</ul>
 		</nav>
