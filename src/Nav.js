@@ -6,7 +6,7 @@ const Nav = () => {
 	return (
 		<nav id="navbar">
 			<a href="#home">
-				<img id="nav-logo" src={Logo} alt="Logo" width="70px" height="70px" />
+				<img id="nav-logo" src={Logo} alt="Logo" width="65px" height="65px" />
 			</a>
 			<ul id="nav-list">
 				<li className="nav-item">
