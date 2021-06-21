@@ -10,7 +10,7 @@ p {
 }
 
 #story {
-	width: 80vw;
+	width: 70vw;
 	display: flex;
 	flex-direction: row;
 	text-align: left;
@@ -20,4 +20,18 @@ p {
 
 #portrait {
 	margin-left: 60px;
+}
+
+.highlighted-text {
+	color: #53cbbf;
+}
+
+.list {
+	columns: 3;
+	list-style-image: url("./resources/list-image.png");
+}
+
+.list > li {
+	padding-left: 0.5em;
+	margin-bottom: 0.2em;
 }

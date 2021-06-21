@@ -8,15 +8,34 @@ const About = () => {
 		<section id="about">
 			<h2>About Me</h2>
 			<article id="story">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
-				</p>
+				<div id="content">
+					<p>
+						When I was around 11 years old I watched a movie from the 80's
+						called <em>War Games</em> and I was immediately fascinated with the
+						world of computer science. The very same week, I got a book about
+						programming in Ruby for beginners from the library. Despite my best
+						efforts, I couldn't get Ruby to work on my parents' computer but I
+						was so absorbed in understanding the logic of the code that I read
+						the book cover to cover like it was a <em>Lord Of The Rings</em>{" "}
+						novel.
+					</p>
+					<p>
+						Currently, I'm studying{" "}
+						<span class="highlighted-text">Software Engineering</span> at{" "}
+						<span class="highlighted-text">McMaster University</span>.
+					</p>
+					<p>
+						I have <span class="highlighted-text">experience</span> with:
+						<ul class="list">
+							<li>Javascript</li>
+							<li>Python</li>
+							<li>Java</li>
+							<li>React</li>
+							<li>Node.js</li>
+							<li>MongoDB</li>
+						</ul>
+					</p>
+				</div>
 				<AnimatedImage
 					source={portrait}
 					ident="portrait"
