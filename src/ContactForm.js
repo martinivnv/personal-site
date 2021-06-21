@@ -50,7 +50,7 @@ const ContactForm = () => {
 					placeholder="Message"
 				/>
 				<br />
-				<button type="submit">Send</button>
+				<button type="submit">Submit</button>
 			</form>
 		</div>
 	);
