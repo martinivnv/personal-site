@@ -3,19 +3,13 @@ import "./AnimatedImage.css";
 
 const AnimatedImage = (props) => {
 	const width = props.width;
-	const height = props.height;
 	const source = props.source;
 	const ident = props.ident;
 	const altTxt = props.altTxt;
 	return (
 		<div className="image-container" id={ident}>
-			<img
-				src={source}
-				alt={altTxt}
-				class="image"
-				width={width}
-				height={height}
-			/>
+			<div class="underlay"></div>
+			<img src={source} alt={altTxt} class="image" width={width} />
 			<div class="overlay"></div>
 		</div>
 	);
