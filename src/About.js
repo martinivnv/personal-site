@@ -10,14 +10,13 @@ const About = () => {
 			<article id="story">
 				<div id="content">
 					<p>
-						When I was around 11 years old I watched a movie from the 80's
-						called <em>War Games</em> and I was immediately fascinated with the
-						world of computer science. The very same week, I got a book about
-						programming in Ruby for beginners from the library. Despite my best
-						efforts, I couldn't get Ruby to work on my parents' computer but I
-						was so absorbed in understanding the logic of the code that I read
-						the book cover to cover like it was a <em>Lord Of The Rings</em>{" "}
-						novel.
+						My fascination with computer science began when I was around 11
+						years old and I watched a movie from the 80's called{" "}
+						<em>War Games</em>. My imagination was captured, and I immediately
+						picked up a book about Ruby for beginners from the library. Despite
+						my best efforts, I couldn't get Ruby to work on my parents' computer
+						but I was so absorbed in understanding the logic of the code that I
+						read the book cover to cover like it was <em>Lord Of The Rings</em>.
 					</p>
 					<p>
 						Currently, I'm studying{" "}
