@@ -1,0 +1,39 @@
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.project-content {
+	border-radius: 15px;
+	background-color: #1d1d1dd1;
+	text-align: left;
+	padding: 25px;
+}
+
+.project-image {
+	margin-right: 30px;
+}
+
+.project-name {
+	margin: 0.2em 0em;
+}
+
+.project-links {
+	margin-top: 1em;
+}
+
+.project-button {
+	margin-right: 2em;
+	padding: 0.4em 1em;
+	border: 1px solid #f1f1f1;
+	border-radius: 15px;
+	font-size: 1em;
+}
+
+.project-button:hover {
+	background-color: #f1f1f142;
+	color: #f1f1f1;
+}

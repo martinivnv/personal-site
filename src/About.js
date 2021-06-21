@@ -40,7 +40,6 @@ const About = () => {
 					ident="portrait"
 					alt="Portrait"
 					width="300px"
-					height="300px"
 				/>
 			</article>
 		</section>
