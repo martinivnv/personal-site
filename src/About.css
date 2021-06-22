@@ -35,3 +35,14 @@ p {
 	padding-left: 0.5em;
 	margin-bottom: 0.2em;
 }
+
+@media (max-width: 768px) {
+	#story {
+		flex-direction: column;
+	}
+
+	#portrait {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+}
