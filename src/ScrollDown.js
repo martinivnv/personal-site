@@ -5,11 +5,11 @@ import "./ScrollDown.css";
 
 const ScrollDown = () => {
 	return (
-		<div className="scrolldown-container">
+		<a className="scrolldown-container" href="#about">
 			<div className="chevron"></div>
 			<div className="chevron"></div>
 			<div className="chevron"></div>
-		</div>
+		</a>
 	);
 };
 
