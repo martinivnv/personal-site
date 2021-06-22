@@ -20,8 +20,8 @@ const About = () => {
 					</p>
 					<p>
 						After taking a few programming courses in high school, I discovered
-						that my passion for Software Engineering would make it the perfect
-						career for me! I decided that I want to create software that will
+						that my enthusiasm for Software Engineering makes it the perfect
+						career choice for me. I made it my goal to create software that will
 						make people's lives easier around the world.
 					</p>
 					<p>

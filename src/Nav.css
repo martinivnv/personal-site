@@ -55,4 +55,8 @@ a:hover {
 		background-color: #00000000;
 		box-shadow: none;
 	}
+
+	#nav-logo {
+		margin-left: 20px;
+	}
 }

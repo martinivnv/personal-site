@@ -1,14 +1,3 @@
-h2 {
-	margin: 30px;
-	font-size: 2em;
-	color: #53cbbf;
-}
-
-p {
-	font-size: 1em;
-	color: #f1f1f1;
-}
-
 #story {
 	width: 70vw;
 	display: flex;
