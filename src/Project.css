@@ -22,11 +22,11 @@
 }
 
 .project-links {
-	margin-top: 1em;
+	margin-top: 2em;
 }
 
 .project-button {
-	margin-right: 2em;
+	margin-right: 1.5em;
 	padding: 0.4em 1em;
 	border: 1px solid #f1f1f1;
 	border-radius: 15px;
@@ -36,4 +36,20 @@
 .project-button:hover {
 	background-color: #f1f1f142;
 	color: #f1f1f1;
+}
+
+.project-stack {
+	display: flex;
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-family: monospace;
+	font-size: 1.1em;
+}
+
+.project-stack > li {
+	margin-right: 0.8em;
+	padding: 0.2em 0.5em;
+	background-color: #3500d370;
+	border-radius: 0.2em;
 }

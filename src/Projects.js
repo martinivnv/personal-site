@@ -18,7 +18,7 @@ const Projects = () => {
 		},
 		{
 			name: "Personal Website",
-			desc: "This is the first thing I have built in React without following a tutorial. Quite happy with how it has turned out!",
+			desc: "This is the first thing that I have built in React without following a tutorial. Pretty happy with how it has turned out!",
 			stack: ["React", "CSS"],
 			github: "https://github.com/martinivnv/personal-site",
 			demo: "",
