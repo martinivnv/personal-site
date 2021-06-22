@@ -31,3 +31,8 @@ section {
 	align-items: center;
 	padding: 60px 40px;
 }
+
+::selection {
+	background: #3500d3;
+	color: #f1f1f1;
+}
