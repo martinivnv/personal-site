@@ -26,7 +26,7 @@ const Projects = () => {
 		},
 		{
 			name: "DriveTest Cancellation Checker",
-			desc: "A program that sends you an email when someone with a earlier booking than you cancels their driving test. I automated the process using the selenium and smtplib Python libraries. Using this program, I was able to get my G2 license 2 months early.",
+			desc: "A program that sends you an email when someone ahead of you cancels their driving test. I automated the process using the selenium and smtplib Python libraries. Using this program, I was able to get my G2 license 2 months early.",
 			stack: ["Python"],
 			github: "https://github.com/martinivnv/drivetest-cancellation-checker",
 			demo: "",
