@@ -13,10 +13,16 @@ const About = () => {
 						My fascination with computer science began when I was around 11
 						years old and I watched a movie from the 80's called{" "}
 						<em>War Games</em>. My imagination was captured, and I immediately
-						picked up a book about Ruby for beginners from the library. Despite
-						my best efforts, I couldn't get Ruby to work on my parents' computer
-						but I was so absorbed in understanding the logic of the code that I
-						read the book cover to cover like it was <em>Lord Of The Rings</em>.
+						picked up a book about Ruby for beginners from the library. Although
+						I couldn't get Ruby to work on my parents' computer, I was so
+						absorbed in understanding the logic of the code that I read the book
+						cover to cover like it was <em>Lord Of The Rings</em>!
+					</p>
+					<p>
+						After taking a few programming courses in high school, I discovered
+						that my passion for Software Engineering would make it the perfect
+						career for me! I decided that I want to create software that will
+						make people's lives easier around the world.
 					</p>
 					<p>
 						Currently, I'm studying{" "}
