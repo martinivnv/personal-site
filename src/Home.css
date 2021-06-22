@@ -47,6 +47,8 @@
 @media (max-width: 590px) {
 	.content {
 		content: 90vw;
+		position: relative;
+		bottom: 2em;
 	}
 
 	#name {
