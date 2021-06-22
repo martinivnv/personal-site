@@ -1,0 +1,22 @@
+#contact {
+	padding-top: 20px;
+}
+
+#contact-title {
+	margin-bottom: 0.2em;
+}
+#contact-text {
+	font-size: 1.1em;
+	color: #a9a9a9;
+	max-width: 650px;
+}
+
+@media (max-width: 768px) {
+	#contact {
+		padding-top: 0px;
+	}
+
+	#contact-text {
+		width: 80vw;
+	}
+}

@@ -13,7 +13,6 @@ textarea {
 }
 
 textarea {
-	max-width: 100%;
 	resize: none;
 }
 
@@ -48,4 +47,10 @@ button:hover {
 button:active {
 	background-color: #53cbbf4f;
 	transform: translateY(5px);
+}
+
+@media (max-width: 768px) {
+	#contact-form {
+		width: 80vw;
+	}
 }
