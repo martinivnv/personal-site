@@ -34,7 +34,7 @@ const Projects = () => {
 		},
 		{
 			name: "Python Blackjack",
-			desc: "A fully functioning Blackjack game built using the pygame Python library. In creating this program, I learned a lot about and relied heavily on Object Oriented Programming principles.",
+			desc: "A fully functional Blackjack game built using the pygame Python library. In creating this program, I learned a lot about and relied heavily on Object Oriented Programming principles.",
 			stack: ["Python"],
 			github: "https://github.com/martinivnv/python-blackjack",
 			demo: "",

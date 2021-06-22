@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
+import ScrollDown from "./ScrollDown";
 import SocialLinks from "./SocialLinks";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
 					<SocialLinks />
 				</div>
 			</div>
+			<ScrollDown />
 		</div>
 	);
 };
