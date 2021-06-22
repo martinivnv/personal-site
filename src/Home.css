@@ -20,7 +20,7 @@
 
 .content {
 	color: #f1f1f1;
-	width: 70%;
+	width: 70vw;
 }
 
 #name {
@@ -42,4 +42,20 @@
 
 #socials-bar-home {
 	font-size: 1.8em;
+}
+
+@media (max-width: 590px) {
+	.content {
+		content: 90vw;
+	}
+
+	#name {
+		font-size: 1.8em;
+		margin: 0.5em;
+		color: #53cbbf;
+	}
+
+	#currently-working-on {
+		font-size: 1.2em;
+	}
 }
