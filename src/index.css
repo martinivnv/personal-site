@@ -19,7 +19,15 @@ code {
 		monospace;
 }
 
+h2 {
+	margin: 30px;
+	font-size: 2em;
+	color: #53cbbf;
+}
+
 p {
+	font-size: 1em;
+	color: #f1f1f1;
 	font-family: "Roboto", Arial, Helvetica, sans-serif;
 	line-height: 1.6;
 }
@@ -35,4 +43,15 @@ section {
 ::selection {
 	background: #3500d3;
 	color: #f1f1f1;
+}
+
+@media (max-width: 590px) {
+	h2 {
+		margin: 0px;
+		font-size: 1.8em;
+	}
+
+	section {
+		padding: 40px 15px;
+	}
 }
