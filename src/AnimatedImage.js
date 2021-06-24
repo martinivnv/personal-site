@@ -5,11 +5,10 @@ const AnimatedImage = (props) => {
 	const width = props.width;
 	const source = props.source;
 	const ident = props.ident;
-	const altTxt = props.altTxt;
 	return (
 		<div className="image-container" id={ident}>
 			<div class="underlay"></div>
-			<img src={source} alt={altTxt} class="image" width={width} />
+			<img src={source} alt={ident} class="image" width={width} />
 			<div class="overlay"></div>
 		</div>
 	);
