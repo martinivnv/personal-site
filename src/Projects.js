@@ -11,7 +11,7 @@ const Projects = () => {
 		{
 			name: "simpl_weather",
 			desc: "A bare-bones, ultra minimalist weather web app that leverages the Openweathermap API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
-			stack: ["Javascript", "HTML", "CSS", "Express"],
+			stack: ["JavaScript", "HTML", "CSS", "Express"],
 			github: "https://github.com/martinivnv/simpl-weather",
 			demo: "http://simpl-weather.herokuapp.com/",
 			image: imgWeather,
