@@ -32,7 +32,7 @@ const About = () => {
 					<p>
 						I have <span class="highlighted-text">experience</span> with:
 						<ul class="list">
-							<li>Javascript</li>
+							<li>JavaScript</li>
 							<li>Python</li>
 							<li>Java</li>
 							<li>React</li>
