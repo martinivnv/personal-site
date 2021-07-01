@@ -67,10 +67,10 @@
 		padding-top: 60px;
 		position: relative;
 		top: -35px;
-		z-index: -10;
 	}
 
 	.project-image {
 		margin-right: 0px;
+		z-index: 10;
 	}
 }
