@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import Project from "./Project.js";
+import imgEatsy from "./resources/screenshots/eatsy-meal-prep.png";
 import imgWeather from "./resources/screenshots/simpl_weather.png";
 import imgBlackjack from "./resources/screenshots/blackjack.png";
 import imgPersonal from "./resources/screenshots/personal-site.png";
@@ -8,6 +9,14 @@ import imgDrivetest from "./resources/screenshots/drivetest-checker.png";
 
 const Projects = () => {
 	const projects = [
+		{
+			name: "Eatsy — Meal Prep Made Easy",
+			desc: "A full-stack app for planning and tracking your meals to save money and reduce food waste. Reads meals from a MongoDB database using a custom-built API and displays them in a calendar, allowing the user to add, update, and delete meals.",
+			stack: ["MongoDB", "Express", "React", "Node.js"],
+			github: "https://github.com/martinivnv/meal-prep-app",
+			demo: "https://eatsy-meal-prep.netlify.app/",
+			image: imgEatsy,
+		},
 		{
 			name: "simpl_weather",
 			desc: "A bare-bones, ultra minimalist weather web app that leverages the Openweathermap API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
