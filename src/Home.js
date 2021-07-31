@@ -18,7 +18,7 @@ const Home = () => {
 				browser.
 			</video>
 			<div className="content">
-				<Typist cursor={{ show: false }} avgTypingDelay={150}>
+				<Typist cursor={{ show: false }} avgTypingDelay={80}>
 					<h1 id="name">Hey, I'm Martin.</h1>
 				</Typist>
 				<p id="currently-working-on">
