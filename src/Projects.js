@@ -52,7 +52,7 @@ const Projects = () => {
 	];
 	return (
 		<section id="projects">
-			<h2>Some of My Projects</h2>
+			<h2>My Project Portfolio</h2>
 			<div id="projects-container">
 				{projects.map((project) => (
 					<Project info={project} />
