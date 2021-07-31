@@ -4,6 +4,7 @@ import myVideoV1 from "./resources/grid background.mp4";
 import myVideoV2 from "./resources/grid background.ogg";
 import ScrollDown from "./ScrollDown";
 import SocialLinks from "./SocialLinks";
+import Typist from "react-typist";
 
 const Home = () => {
 	return (
@@ -17,7 +18,9 @@ const Home = () => {
 				browser.
 			</video>
 			<div className="content">
-				<h1 id="name">Hey, I'm Martin.</h1>
+				<Typist cursor={{ show: false }} avgTypingDelay={150}>
+					<h1 id="name">Hey, I'm Martin.</h1>
+				</Typist>
 				<p id="currently-working-on">
 					I'm a Software Engineering student with a passion for learning new
 					technologies! Currently, I am exploring full stack web development.
