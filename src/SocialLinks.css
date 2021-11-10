@@ -7,6 +7,10 @@
 	line-height: 1.8;
 }
 
+#resume {
+	cursor: pointer;
+}
+
 @media (max-width: 590px) {
 	.icon-link {
 		margin: 5px 0.3em;

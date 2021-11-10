@@ -7,8 +7,12 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Resume from "./resources/Martin Ivanov Software Co-op Resume 2021.pdf";
 
 const SocialLinks = () => {
+	const onResumeClick = () => {
+		window.open(Resume);
+	};
 	return (
 		<div class="social-links">
 			<a
@@ -41,14 +45,14 @@ const SocialLinks = () => {
 			>
 				<FontAwesomeIcon icon={faInstagram} />
 			</a>
+			{/* eslint-disable-next-line */}
 			<a
 				id="resume"
 				class="icon-link"
-				href="https://google.com"
+				onClick={onResumeClick}
 				rel="noreferrer"
 				target="_blank"
 			>
-				{/* {<resumeIcon fill="#f1f1f1" height="" />} */}
 				<FontAwesomeIcon
 					icon={{
 						prefix: "fac",
