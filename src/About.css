@@ -18,10 +18,11 @@
 .list {
 	columns: 3;
 	list-style-image: url("./resources/list-image.png");
+	padding-inline-start: 15px;
 }
 
 .list > li {
-	padding-left: 0.5em;
+	padding-left: 0.1em;
 	margin-bottom: 0.2em;
 }
 

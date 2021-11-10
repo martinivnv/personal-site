@@ -27,7 +27,8 @@ const About = () => {
 					<p>
 						Currently, I'm studying{" "}
 						<span class="highlighted-text">Software Engineering</span> at{" "}
-						<span class="highlighted-text">McMaster University</span>.
+						<span class="highlighted-text">McMaster University</span> and
+						working at <span class="highlighted-text">Peernet.co</span>.
 					</p>
 					<p>
 						I have <span class="highlighted-text">experience</span> with:
@@ -38,6 +39,9 @@ const About = () => {
 							<li>React</li>
 							<li>Node.js</li>
 							<li>MongoDB</li>
+							<li>MySQL</li>
+							<li>HTML/CSS</li>
+							<li>C</li>
 						</ul>
 					</p>
 				</div>
