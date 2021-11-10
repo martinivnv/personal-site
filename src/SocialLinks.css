@@ -3,6 +3,10 @@
 	margin: 5px 1em;
 }
 
+.social-links {
+	line-height: 1.8;
+}
+
 @media (max-width: 590px) {
 	.icon-link {
 		margin: 5px 0.4em;
