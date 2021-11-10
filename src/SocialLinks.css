@@ -1,6 +1,6 @@
 .icon-link {
 	font-size: inherit;
-	margin: 5px 1em;
+	margin: 5px 0.8em;
 }
 
 .social-links {
@@ -9,6 +9,6 @@
 
 @media (max-width: 590px) {
 	.icon-link {
-		margin: 5px 0.4em;
+		margin: 5px 0.3em;
 	}
 }
