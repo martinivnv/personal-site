@@ -7,6 +7,7 @@ import imgBlackjack from "./resources/screenshots/blackjack.png";
 // import imgPersonal from "./resources/screenshots/personal-site.png";
 import imgDrivetest from "./resources/screenshots/drivetest-checker.png";
 import imgJobbase from "./resources/screenshots/jobbase.png";
+import imgRayTracer from "./resources/screenshots/ray-tracer.png";
 
 const Projects = () => {
 	const projects = [
@@ -35,8 +36,16 @@ const Projects = () => {
 		// 	image: imgPersonal,
 		// },
 		{
+			name: "RealLight — Ray Tracing Simulator",
+			desc: "A program that applies linear algebra and physics concepts to realistically simulate diffusion, reflection, and refraction of light as it interacts with different types of materials. Written with vanilla C++ from the ground up, without any APIs or external graphics libraries. The shown image was rendered using the program. ",
+			stack: ["C++"],
+			github: "https://github.com/martinivnv/ray-tracing-from-scratch",
+			demo: "",
+			image: imgRayTracer,
+		},
+		{
 			name: "DriveTest Availability Finder",
-			desc: "A program that sends you an email when someone ahead of you cancels their driving test. I automated the process using the selenium and smtplib Python libraries. Using this program, I was able to get my G2 license 5 months early!",
+			desc: "A program that sends you an email when someone ahead of you cancels their driving test. I automated the process using the selenium and smtplib Python libraries. Using this program, I was able to save 5 months of waiting to get my G2 driver's license!",
 			stack: ["Python"],
 			github: "https://github.com/martinivnv/drivetest-availability-finder",
 			demo: "",
