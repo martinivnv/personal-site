@@ -49,7 +49,7 @@ const Projects = () => {
 			desc: "A web app for viewing and learning about images from NASA's Astronomy Picture of the Day API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
 			stack: ["React", "CSS"],
 			github: "https://github.com/martinivnv/spacestagram",
-			demo: "martinivnv.github.io/spacestagram/",
+			demo: "https://martinivnv.github.io/spacestagram/",
 			image: imgSpace,
 		},
 		{
