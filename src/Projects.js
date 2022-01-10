@@ -2,12 +2,13 @@ import React from "react";
 import "./Projects.css";
 import Project from "./Project.js";
 import imgEatsy from "./resources/screenshots/eatsy-meal-prep.png";
-import imgWeather from "./resources/screenshots/simpl_weather.png";
+// import imgWeather from "./resources/screenshots/simpl_weather.png";
 import imgBlackjack from "./resources/screenshots/blackjack.png";
 // import imgPersonal from "./resources/screenshots/personal-site.png";
 import imgDrivetest from "./resources/screenshots/drivetest-checker.png";
 import imgJobbase from "./resources/screenshots/jobbase.png";
 import imgRayTracer from "./resources/screenshots/ray-tracer.png";
+import imgSpace from "./resources/screenshots/spacestagram.png";
 
 const Projects = () => {
 	const projects = [
@@ -44,6 +45,14 @@ const Projects = () => {
 			image: imgRayTracer,
 		},
 		{
+			name: "Spacestagram",
+			desc: "A web app for viewing and learning about images from NASA's Astronomy Picture of the Day API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
+			stack: ["React", "CSS"],
+			github: "https://github.com/martinivnv/spacestagram",
+			demo: "martinivnv.github.io/spacestagram/",
+			image: imgSpace,
+		},
+		{
 			name: "DriveTest Availability Finder",
 			desc: "A program that sends you an email when someone ahead of you cancels their driving test. I automated the process using the selenium and smtplib Python libraries. Using this program, I was able to save 5 months of waiting to get my G2 driver's license!",
 			stack: ["Python"],
@@ -59,14 +68,14 @@ const Projects = () => {
 			demo: "",
 			image: imgBlackjack,
 		},
-		{
-			name: "simpl_weather",
-			desc: "A bare-bones, ultra minimalist weather web app that leverages the OpenWeatherMap API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
-			stack: ["JavaScript", "HTML", "CSS"],
-			github: "https://github.com/martinivnv/simpl-weather",
-			demo: "https://simpl-weather.netlify.app/",
-			image: imgWeather,
-		},
+		// {
+		// 	name: "simpl_weather",
+		// 	desc: "A bare-bones, ultra minimalist weather web app that leverages the OpenWeatherMap API. Built with a mobile-first approach and designed to be fully responsive to different screen sizes.",
+		// 	stack: ["JavaScript", "HTML", "CSS"],
+		// 	github: "https://github.com/martinivnv/simpl-weather",
+		// 	demo: "https://simpl-weather.netlify.app/",
+		// 	image: imgWeather,
+		// },
 	];
 	return (
 		<section id="projects">
