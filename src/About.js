@@ -16,19 +16,20 @@ const About = () => {
 						picked up a book about Ruby for beginners from the library. Although
 						I couldn't get Ruby to work on my parents' computer, I was so
 						absorbed in understanding the logic of the code that I read the book
-						cover to cover like it was <em>Lord Of The Rings</em>!
+						cover to cover like a novel.
 					</p>
 					<p>
 						After taking a few programming courses in high school, I discovered
 						that my enthusiasm for Software Engineering makes it the perfect
 						career choice for me. I made it my goal to create software that will
-						make people's lives easier around the world.
+						provide value to people around the world.
 					</p>
 					<p>
 						Currently, I'm studying{" "}
 						<span class="highlighted-text">Software Engineering</span> at{" "}
 						<span class="highlighted-text">McMaster University</span> and
-						working at <span class="highlighted-text">Peernet.co</span>.
+						seeking internships for{" "}
+						<span class="highlighted-text">Summer 2023</span>.
 					</p>
 					<p>
 						I have <span class="highlighted-text">experience</span> with:
@@ -39,7 +40,7 @@ const About = () => {
 							<li>React</li>
 							<li>Node.js</li>
 							<li>MongoDB</li>
-							<li>MySQL</li>
+							<li>SQL</li>
 							<li>HTML/CSS</li>
 							<li>C</li>
 						</ul>
