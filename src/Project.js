@@ -7,12 +7,7 @@ const Project = (props) => {
 	return (
 		<div className="project">
 			<div className="project-image">
-				<AnimatedImage
-					source={info.image}
-					ident={info.name}
-					alt={info.name}
-					width="300px"
-				/>
+				<AnimatedImage source={info.image} ident={info.name} width="300px" />
 			</div>
 			<div className="project-content">
 				<h3 className="project-name">{info.name}</h3>
