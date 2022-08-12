@@ -10,10 +10,10 @@ const SocialLinks = () => {
 		window.open(Resume);
 	};
 	return (
-		<div class="social-links">
+		<div className="social-links">
 			<a
 				id="github"
-				class="icon-link"
+				className="icon-link"
 				href="https://github.com/martinivnv"
 				rel="noreferrer"
 				target="_blank"
@@ -22,20 +22,24 @@ const SocialLinks = () => {
 			</a>
 			<a
 				id="linkedin"
-				class="icon-link"
+				className="icon-link"
 				href="https://ca.linkedin.com/in/martinivnv"
 				rel="noreferrer"
 				target="_blank"
 			>
 				<FontAwesomeIcon icon={faLinkedinIn} />
 			</a>
-			<a id="email" class="icon-link" href="mailto:martinivnv2002@gmail.com">
+			<a
+				id="email"
+				className="icon-link"
+				href="mailto:martinivnv2002@gmail.com"
+			>
 				<FontAwesomeIcon icon={faAt} />
 			</a>
 			{/* eslint-disable-next-line */}
 			<a
 				id="resume"
-				class="icon-link"
+				className="icon-link"
 				onClick={onResumeClick}
 				rel="noreferrer"
 				target="_blank"
