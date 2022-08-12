@@ -1,11 +1,7 @@
 import React from "react";
 import "./SocialLinks.css";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
-import {
-	faGithub,
-	faLinkedinIn,
-	faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Resume from "./resources/Martin Ivanov Software Co-op Resume 2022.pdf";
 
@@ -35,15 +31,6 @@ const SocialLinks = () => {
 			</a>
 			<a id="email" class="icon-link" href="mailto:martinivnv2002@gmail.com">
 				<FontAwesomeIcon icon={faAt} />
-			</a>
-			<a
-				id="instagram"
-				class="icon-link"
-				href="https://instagram.com/martin.ivnv"
-				rel="noreferrer"
-				target="_blank"
-			>
-				<FontAwesomeIcon icon={faInstagram} />
 			</a>
 			{/* eslint-disable-next-line */}
 			<a
