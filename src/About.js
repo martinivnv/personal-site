@@ -42,7 +42,7 @@ const About = () => {
 							<li>MongoDB</li>
 							<li>SQL</li>
 							<li>HTML/CSS</li>
-							<li>C</li>
+							<li>C#</li>
 						</ul>
 					</p>
 				</div>

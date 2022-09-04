@@ -3,7 +3,7 @@ import "./SocialLinks.css";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Resume from "./resources/Martin Ivanov Software Co-op Resume 2022.pdf";
+import Resume from "./resources/Martin Ivanov Software Co-op Resume 2023.pdf";
 
 const SocialLinks = () => {
 	const onResumeClick = () => {

@@ -17,7 +17,7 @@ const Footer = () => {
 					width="35px"
 					height="35px"
 				/>
-				<p id="footer-text">© Martin Ivanov 2021</p>
+				<p id="footer-text">© Martin Ivanov 2022</p>
 			</div>
 		</footer>
 	);
