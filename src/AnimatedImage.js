@@ -7,9 +7,9 @@ const AnimatedImage = (props) => {
 	const ident = props.ident;
 	return (
 		<div className="image-container" id={ident}>
-			<div class="underlay"></div>
-			<img src={source} alt={ident} class="image" width={width} />
-			<div class="overlay"></div>
+			<div className="underlay"></div>
+			<img src={source} alt={ident} className="image" width={width} />
+			<div className="overlay"></div>
 		</div>
 	);
 };

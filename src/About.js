@@ -26,14 +26,14 @@ const About = () => {
 					</p>
 					<p>
 						Currently, I'm studying{" "}
-						<span class="highlighted-text">Software Engineering</span> at{" "}
-						<span class="highlighted-text">McMaster University</span> and
+						<span className="highlighted-text">Software Engineering</span> at{" "}
+						<span className="highlighted-text">McMaster University</span> and
 						seeking internships for{" "}
-						<span class="highlighted-text">Summer 2023</span>.
+						<span className="highlighted-text">Summer 2023</span>.
 					</p>
 					<p>
-						I have <span class="highlighted-text">experience</span> with:
-						<ul class="list">
+						I have <span className="highlighted-text">experience</span> with:
+						<ul className="list">
 							<li>JavaScript</li>
 							<li>Python</li>
 							<li>Java</li>
