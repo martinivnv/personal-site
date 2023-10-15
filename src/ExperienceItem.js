@@ -3,16 +3,31 @@ import "./ExperienceItem.css";
 
 const ExperienceItem = ({ info }) => {
 	return (
-		<div className="experience-item">
-			<div className="experience-item-logo">
+		<div className="experience">
+			<div className="experience-logo">
 				<img src={info.logo} alt={info.name} className="image" width="108px" />
 			</div>
-			<div className="experience-item-content">
-				<h3 className="experience-item-name">
-					{info.role} @ {info.name}
-				</h3>
-				<p className="experience-item-dates">{info.dates}</p>
-				<p className="experience-item-desc">{info.desc}</p>
+			<div className="experience-content">
+				<div className="experience-name-and-dates">
+					<h3 className="experience-name">
+						{info.role} @{" "}
+						<a
+							className="experience-link rainbow-hover"
+							href={info.link}
+							rel="noreferrer"
+							target="_blank"
+						>
+							{info.name}
+						</a>
+					</h3>
+					<p className="experience-dates">{info.dates}</p>
+				</div>
+				<p className="experience-desc">{info.desc}</p>
+				<ul className="experience-stack">
+					{info.stack.map((i) => (
+						<li style={{ backgroundColor: info.stackColor }}>{i}</li>
+					))}
+				</ul>
 			</div>
 		</div>
 	);

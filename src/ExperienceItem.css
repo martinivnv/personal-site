@@ -1,0 +1,62 @@
+.experience {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.experience-content {
+	border-radius: 15px;
+	background-color: #ffffff29;
+	text-align: left;
+	padding: 25px;
+	width: 100%;
+}
+
+.experience-logo {
+	margin-right: 30px;
+}
+
+.experience-name {
+	margin: 0px;
+}
+
+.experience-dates {
+	font-family: monospace;
+	font-size: 1.2em;
+	margin: 0px;
+}
+
+.experience-name-and-dates {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.experience-stack {
+	display: flex;
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-family: monospace;
+	font-size: 1.1em;
+	flex-wrap: wrap;
+}
+
+.experience-stack > li {
+	margin-right: 0.8em;
+	margin-bottom: 0.4em;
+	padding: 0.2em 0.5em;
+	border-radius: 0.2em;
+}
+
+.experience-link {
+	font-size: inherit;
+	text-decoration: underline;
+	color: #53cbbf;
+}
+
+.experience-link:hover {
+	color: white;
+}
