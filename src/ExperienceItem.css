@@ -19,6 +19,9 @@
 
 .experience-name {
 	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
 }
 
 .experience-dates {
@@ -59,4 +62,41 @@
 
 .experience-link:hover {
 	color: white;
+}
+
+@media (max-width: 768px) {
+	.experience {
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+
+	.experience-content {
+		padding-top: 60px;
+		position: relative;
+		top: -35px;
+		width: 90%;
+	}
+
+	.experience-logo {
+		margin-right: 0px;
+		z-index: 10;
+	}
+
+	.experience-name-and-dates {
+		flex-direction: column;
+	}
+
+	.experience-name {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 1em;
+	}
+
+	.experience-stack {
+		justify-content: center;
+	}
+
+	.experience-desc {
+		text-align: center;
+	}
 }

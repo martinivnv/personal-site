@@ -10,15 +10,17 @@ const ExperienceItem = ({ info }) => {
 			<div className="experience-content">
 				<div className="experience-name-and-dates">
 					<h3 className="experience-name">
-						{info.role} @{" "}
-						<a
-							className="experience-link rainbow-hover"
-							href={info.link}
-							rel="noreferrer"
-							target="_blank"
-						>
-							{info.name}
-						</a>
+						<div>{info.role}</div> <text>@</text>
+						<div>
+							<a
+								className="experience-link rainbow-hover"
+								href={info.link}
+								rel="noreferrer"
+								target="_blank"
+							>
+								{info.name}
+							</a>
+						</div>
 					</h3>
 					<p className="experience-dates">{info.dates}</p>
 				</div>
