@@ -13,10 +13,13 @@ const Nav = () => {
 					<a href="#about">About Me</a>
 				</li>
 				<li className="nav-item">
-					<a href="#projects">My Projects</a>
+					<a href="#about">Experience</a>
 				</li>
 				<li className="nav-item">
-					<a href="#contact">Contact Me</a>
+					<a href="#projects">Projects</a>
+				</li>
+				<li className="nav-item">
+					<a href="#contact">Contact</a>
 				</li>
 			</ul>
 		</nav>

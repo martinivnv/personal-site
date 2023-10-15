@@ -5,7 +5,7 @@ import About from "./About.js";
 import Projects from "./Projects";
 import Contact from "./Contact.js";
 import Footer from "./Footer.js";
-// import Experience from "./Experience";
+import Experience from "./Experience";
 
 function App() {
 	return (
@@ -13,7 +13,7 @@ function App() {
 			<Nav />
 			<Home />
 			<About />
-			{/* <Experience /> */}
+			<Experience />
 			<Projects />
 			<Contact />
 			<Footer />
