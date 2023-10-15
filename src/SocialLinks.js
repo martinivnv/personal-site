@@ -37,7 +37,7 @@ const SocialLinks = () => {
 				<FontAwesomeIcon icon={faAt} />
 			</a>
 			{/* eslint-disable-next-line */}
-			<a
+			{/* <a
 				id="resume"
 				className="icon-link"
 				onClick={onResumeClick}
@@ -57,7 +57,7 @@ const SocialLinks = () => {
 						],
 					}}
 				/>
-			</a>
+			</a> */}
 		</div>
 	);
 };
