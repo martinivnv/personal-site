@@ -11,10 +11,6 @@
 	margin-left: 60px;
 }
 
-.highlighted-text {
-	color: #53cbbf;
-}
-
 .list {
 	columns: 3;
 	list-style-image: url("./resources/list-image.png");
