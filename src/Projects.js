@@ -17,7 +17,8 @@ const Projects = () => {
 			desc: "A full-stack app for planning and tracking your meals to save money and reduce food waste. Reads meals from a MongoDB database using a custom-built API and displays them in a calendar, allowing the user to add, update, and delete meals.",
 			stack: ["MongoDB", "Express", "React", "Node.js"],
 			github: "https://github.com/martinivnv/meal-prep-app",
-			demo: "https://eatsy-meal-prep.netlify.app/",
+			// demo: "https://eatsy-meal-prep.netlify.app/",
+			demo: "",
 			image: imgEatsy,
 		},
 		{
