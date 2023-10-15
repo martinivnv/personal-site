@@ -7,8 +7,8 @@
 	height: 100vh;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-#my-video {
+/* Style the background: 100% width and height to cover the entire window */
+#background-js {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -26,7 +26,7 @@
 #name {
 	font-size: 3em;
 	margin: 0.5em;
-	color: #53cbbf;
+	color: #f1f1f1;
 }
 
 #currently-working-on {
@@ -54,7 +54,6 @@
 	#name {
 		font-size: 1.8em;
 		margin: 0.5em;
-		color: #53cbbf;
 	}
 
 	#currently-working-on {
