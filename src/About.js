@@ -29,10 +29,10 @@ const About = () => {
 						<span className="highlighted-text">Software Engineering</span> at{" "}
 						<span className="highlighted-text">McMaster University</span> and
 						seeking internships for{" "}
-						<span className="highlighted-text">Summer 2023</span>.
+						<span className="highlighted-text">Summer 2024</span>.
 					</p>
 					<p>
-						I have <span className="highlighted-text">experience</span> with:
+						I have experience with:
 						<ul className="list">
 							<li>JavaScript</li>
 							<li>Python</li>
@@ -41,8 +41,14 @@ const About = () => {
 							<li>Node.js</li>
 							<li>MongoDB</li>
 							<li>SQL</li>
-							<li>HTML/CSS</li>
+							<li>HTML</li>
+							<li>Git</li>
+							<li>Linux</li>
+							<li>Bash</li>
 							<li>C#</li>
+							<li>C</li>
+							<li>C++</li>
+							<li>CSS</li>
 						</ul>
 					</p>
 				</div>
