@@ -3,12 +3,12 @@ import "./SocialLinks.css";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Resume from "./resources/Martin Ivanov Software Co-op Resume 2023.pdf";
+// import Resume from "./resources/Martin Ivanov Software Co-op Resume 2023.pdf";
 
 const SocialLinks = () => {
-	const onResumeClick = () => {
-		window.open(Resume);
-	};
+	// const onResumeClick = () => {
+	// 	window.open(Resume);
+	// };
 	return (
 		<div className="social-links">
 			<a
