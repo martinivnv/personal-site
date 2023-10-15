@@ -10,8 +10,7 @@ const ExperienceItem = ({ info }) => {
 			<div className="experience-content">
 				<div className="experience-name-and-dates">
 					<h3 className="experience-name">
-						<div style={{ textAlign: "center" }}>{info.role}</div>{" "}
-						<text>@</text>
+						<div style={{ textAlign: "center" }}>{info.role}</div> <div>@</div>
 						<div>
 							<a
 								className="experience-link rainbow-hover"
