@@ -4,9 +4,20 @@ import imgPeernet from "./resources/exp-logos/peernet.jpg";
 import imgCeridian from "./resources/exp-logos/ceridian.jpg";
 import imgFresh from "./resources/exp-logos/freshbooks.png";
 import imgTexas from "./resources/exp-logos/texasinstruments.jpg";
+import imgScore from "./resources/exp-logos/thescore.png";
 
 const Experience = () => {
 	const experience = [
+		{
+			role: "Software Engineer Intern",
+			name: "theScore",
+			logo: imgScore,
+			link: "https://www.thescore.com/",
+			dates: "January 2024 - Present",
+			desc: "🎲 Casino Foundations Team",
+			stack: ["Elixir", "LiveView", "Phoenix"],
+			stackColor: "#063062",
+		},
 		{
 			role: "Full-Stack Software Engineer Intern",
 			name: "FreshBooks",
@@ -38,7 +49,7 @@ const Experience = () => {
 			stackColor: "#0a1a3e",
 		},
 		{
-			role: "Full Stack Developer Intern",
+			role: "Full Stack Developer",
 			name: "Peernet",
 			logo: imgPeernet,
 			link: "https://peernet.co/",
