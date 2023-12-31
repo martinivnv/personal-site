@@ -9,9 +9,33 @@ import imgDrivetest from "./resources/screenshots/drivetest-checker.png";
 import imgJobbase from "./resources/screenshots/jobbase.png";
 import imgRayTracer from "./resources/screenshots/ray-tracer.png";
 import imgSpace from "./resources/screenshots/spacestagram.png";
+import imgStock from "./resources/screenshots/stock-match.png";
+import imgAux from "./resources/screenshots/aux-clash.png";
 
 const Projects = () => {
 	const projects = [
+		{
+			name: "StockMatch — Stock Market Discovery Platform",
+			desc: "A mobile-first full-stack web application that allows users to browse and discover stocks to invest in. Users can set preferences and get algorithmically matched with stock picks that align with their needs. Uses a Java Spring backend that consolidates data from several financial APIs using Python and Go microservices.",
+			stack: ["Java", "Go", "Python", "JavaScript", "React", "PostgreSQL"],
+			github: "https://github.com/Aryanpatel335/StockMatch",
+			demo: "https://stockmatch.netlify.app/",
+			image: imgStock,
+		},
+		{
+			name: "AuxClash — Social Spotify Playlist Creator",
+			desc: "A full-stack web application that allows users to make Spotify playlists while competing to submit the best songs. Uses web sockets to facilitate live connections between user's mobile devices and the host computer.",
+			stack: [
+				"React",
+				"JavaScript",
+				"Express.js",
+				"Web Sockets (Socket.IO)",
+				"Tailwind",
+			],
+			github: "https://github.com/martinivnv/meal-prep-app",
+			demo: "https://auxclash.netlify.app/",
+			image: imgAux,
+		},
 		{
 			name: "Eatsy — Meal Prep Made Easy",
 			desc: "A full-stack app for planning and tracking your meals to save money and reduce food waste. Reads meals from a MongoDB database using a custom-built API and displays them in a calendar, allowing the user to add, update, and delete meals.",
