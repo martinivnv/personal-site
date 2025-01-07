@@ -23,7 +23,9 @@ const Home = () => {
 				</Typist>
 				<p id="currently-working-on">
 					I'm a Software Engineering student with a passion for learning new
-					technologies! Currently, I am exploring full stack web development.
+					technologies! Currently, I am exploring new applications for
+					artificial intelligence, merging with my interests in full stack
+					development.
 				</p>
 				<div id="socials-bar-home">
 					<SocialLinks />

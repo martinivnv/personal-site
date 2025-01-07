@@ -9,13 +9,13 @@ import imgScore from "./resources/exp-logos/thescore.png";
 const Experience = () => {
 	const experience = [
 		{
-			role: "Software Engineer Intern",
+			role: "Software Engineer",
 			name: "theScore",
 			logo: imgScore,
 			link: "https://www.thescore.com/",
-			dates: "January 2024 - Present",
+			dates: "January 2024 - August 2024",
 			desc: "🎲 Casino Foundations Team",
-			stack: ["Elixir", "LiveView", "Phoenix"],
+			stack: ["Elixir", "GraphQL", "Docker"],
 			stackColor: "#063062",
 		},
 		{

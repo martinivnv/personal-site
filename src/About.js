@@ -28,8 +28,8 @@ const About = () => {
 						Currently, I'm studying{" "}
 						<span className="highlighted-text">Software Engineering</span> at{" "}
 						<span className="highlighted-text">McMaster University</span> and
-						seeking internships for{" "}
-						<span className="highlighted-text">Summer 2024</span>.
+						seeking new grad opportunities for after I graduate in{" "}
+						<span className="highlighted-text">May 2025</span>.
 					</p>
 					<p>
 						I have experience with:
@@ -49,6 +49,9 @@ const About = () => {
 							<li>C</li>
 							<li>C++</li>
 							<li>CSS</li>
+							<li>Elixir</li>
+							<li>Docker</li>
+							<li>GraphQL</li>
 						</ul>
 					</p>
 				</div>
